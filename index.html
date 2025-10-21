@@ -3,64 +3,101 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Robotika | Teknologi Masa Depan</title>
+  <title>Robotika Indonesia | Teknologi Masa Depan</title>
   <link rel="stylesheet" href="style.css">
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap" rel="stylesheet">
 </head>
 <body>
-  <header>
-    <h1>🤖 Robotika</h1>
+  <!-- Header -->
+  <header class="navbar">
+    <h1>🤖 Robotika Indonesia</h1>
     <nav>
       <a href="#home">Beranda</a>
       <a href="#about">Tentang</a>
       <a href="#projects">Proyek</a>
+      <a href="#team">Tim</a>
       <a href="#contact">Kontak</a>
     </nav>
   </header>
 
+  <!-- Hero Section -->
   <section id="home" class="hero">
-    <div class="content">
-      <h2>Masa Depan Ada di Robotika</h2>
-      <p>Teknologi robot membawa kita menuju dunia yang lebih cerdas dan efisien.</p>
-      <button onclick="scrollToSection('about')">Jelajahi 🚀</button>
+    <div class="text">
+      <h2>Masa Depan Dimulai dari Robotika</h2>
+      <p>Robot bukan hanya mesin — mereka adalah teman manusia dalam membangun masa depan yang cerdas, efisien, dan berkelanjutan.</p>
+      <button onclick="scrollToSection('about')">Mulai Jelajahi 🚀</button>
     </div>
-    <img src="images/robot1.png" class="robot-img" alt="Robot Futuristik">
+    <div class="image">
+      <img src="images/robot1.png" alt="Robot Futuristik" class="floating">
+    </div>
   </section>
 
-  <section id="about" class="fade-in">
+  <!-- About Section -->
+  <section id="about" class="about fade-in">
     <h2>Tentang Robotika</h2>
     <p>
-      Robotika adalah bidang ilmu yang menggabungkan elektronika, mekanika, dan kecerdasan buatan 
-      untuk menciptakan mesin yang dapat membantu manusia dalam berbagai aktivitas.
+      Robotika adalah bidang ilmu yang menggabungkan <b>elektronika</b>, <b>mekanika</b>, dan <b>kecerdasan buatan (AI)</b>
+      untuk menciptakan sistem otomatis yang dapat membantu manusia dalam berbagai bidang — dari industri hingga kehidupan sehari-hari.
     </p>
-    <img src="images/robot2.png" class="robot-small" alt="Robot bekerja">
+    <div class="about-images">
+      <img src="images/robot2.png" alt="Robot bekerja">
+      <img src="images/robot3.png" alt="Robot industri">
+    </div>
   </section>
 
-  <section id="projects">
+  <!-- Projects Section -->
+  <section id="projects" class="projects">
     <h2>Proyek Robotik Unggulan</h2>
-    <div class="projects">
+    <div class="project-grid">
       <div class="card">
-        <h3>Line Follower</h3>
-        <p>Robot cerdas yang mengikuti jalur secara otomatis menggunakan sensor inframerah.</p>
+        <img src="images/line-follower.jpg" alt="Robot Line Follower">
+        <h3>Robot Line Follower</h3>
+        <p>Robot cerdas yang mengikuti garis secara otomatis dengan sensor inframerah dan algoritma kendali PID.</p>
       </div>
       <div class="card">
-        <h3>Lengan Otomatis</h3>
-        <p>Robot industri yang membantu proses perakitan di pabrik dengan presisi tinggi.</p>
+        <img src="images/arm.jpg" alt="Lengan Robot">
+        <h3>Lengan Robot Otomatis</h3>
+        <p>Lengan robot dengan sensor gerak untuk memindahkan benda secara presisi di pabrik industri modern.</p>
       </div>
       <div class="card">
+        <img src="images/drone.jpg" alt="Drone AI">
         <h3>Drone AI</h3>
-        <p>Pesawat tanpa awak dengan kemampuan navigasi dan analisis gambar otomatis.</p>
+        <p>Drone pintar yang mampu terbang mandiri dengan sistem pengenalan objek dan navigasi cerdas berbasis AI.</p>
       </div>
     </div>
   </section>
 
-  <section id="contact">
+  <!-- Team Section -->
+  <section id="team" class="team fade-in">
+    <h2>Tim Kami</h2>
+    <div class="team-grid">
+      <div class="member">
+        <img src="images/member1.png" alt="Anggota 1">
+        <h3>Amellia Eka Putri</h3>
+        <p>Desainer Web & Robot Enthusiast</p>
+      </div>
+      <div class="member">
+        <img src="images/member2.png" alt="Anggota 2">
+        <h3>Budi Santoso</h3>
+        <p>Programmer AI & Mekatronika</p>
+      </div>
+      <div class="member">
+        <img src="images/member3.png" alt="Anggota 3">
+        <h3>Siti Rahmawati</h3>
+        <p>Hardware Engineer & Peneliti Sensor</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Contact Section -->
+  <section id="contact" class="contact">
     <h2>Hubungi Kami</h2>
-    <p>Tertarik dengan dunia robotik? Hubungi kami untuk kolaborasi!</p>
+    <p>Ingin belajar atau berkolaborasi dalam dunia robotika? Hubungi kami di bawah ini!</p>
     <a href="mailto:info@robotika.com" class="btn">📧 Kirim Email</a>
   </section>
 
   <footer>
-    <p>© 2025 Robotika Indonesia | Dibuat oleh Amellia 💙</p>
+    <p>© 2025 Robotika Indonesia | Website by Amellia 💙</p>
   </footer>
 
   <script src="script.js"></script>
