@@ -5,8 +5,8 @@
 }
 body {
   font-family: 'Poppins', sans-serif;
-  background: linear-gradient(to bottom, #0a0a0a, #001a1f);
-  color: #e5e5e5;
+  background: linear-gradient(to bottom, #8b0000);
+  color: #ffffff;
   overflow-x: hidden;
 }
 
@@ -23,7 +23,7 @@ body {
   box-shadow: 0 2px 8px rgba(0,0,0,0.5);
 }
 .navbar h1 {
-  color: #00e6ff;
+  color: #ffffff;
 }
 .navbar a {
   color: #fff;
@@ -33,7 +33,7 @@ body {
   transition: 0.3s;
 }
 .navbar a:hover {
-  color: #00e6ff;
+  color: #ffffff;
 }
 
 /* Hero */
@@ -48,7 +48,7 @@ body {
   max-width: 600px;
 }
 .hero h2 {
-  color: #00e6ff;
+  color: #ffffff;
   font-size: 2.8em;
   margin-bottom: 10px;
 }
@@ -58,7 +58,7 @@ body {
 .hero button {
   margin-top: 20px;
   padding: 10px 20px;
-  background: #00e6ff;
+  background: #ffffff;
   border: none;
   color: black;
   font-weight: 600;
@@ -81,7 +81,7 @@ section {
 }
 section h2 {
   font-size: 2em;
-  color: #00e6ff;
+  color: #ffffff;
   margin-bottom: 20px;
 }
 
@@ -95,7 +95,7 @@ section h2 {
 .about-images img {
   width: 250px;
   border-radius: 10px;
-  box-shadow: 0 0 15px #00e6ff;
+  box-shadow: 0 0 15px #ff4d4d;
 }
 
 /* Projects */
@@ -110,7 +110,7 @@ section h2 {
   border-radius: 15px;
   padding: 20px;
   width: 280px;
-  box-shadow: 0 0 15px #00e6ff;
+  box-shadow: 0 0 15px #ff4d4d;
   transition: transform 0.4s;
 }
 .card img {
